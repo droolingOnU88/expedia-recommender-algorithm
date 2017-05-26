@@ -1,6 +1,6 @@
 # An approach to improve recommendations based on real-world data
 
-##General information
+## General information
 
 This algorithm written for PHP 7.0 can be applied to process the data-set **expedia-full**. Moreover, in the directory results, the processed data of the analysis is documented. The analysis was conducted within the following step:
 1. Reduction of the **expedia-full** table. Removal of non booking tuples by sorting on *is_booking*.
@@ -17,4 +17,4 @@ The results of the analysis are present in the table *expedia-user-hotel-probabi
 
 In order to run the analysis, the tables must be present. Therefore, the SQL file *relevant_tables.sql* needs to be executed.
 
-The initial data-set which is required to run the analysis is available on Kaggle: https://www.kaggle.com/c/expedia-hotel-recommendations/data
+The initial data-set which is required to run the analysis is available on Kaggle: https://www.kaggle.com/c/expedia-hotel-recommendations/data => file name: train.csv.gz
